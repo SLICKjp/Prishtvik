@@ -13,9 +13,15 @@ import Stats from "./components/Stats";
 function App() {
   return (
     <>
+      <div className="max-w-[1240px] mx-auto font-poppins">
       <Navbar/>
       <HeroSection/>
       <Stats/>
+      </div>
+      <AboutUs/>
+      
+     {
+       /* <Stats/>
       <AboutUs/>
       <Services/>
       <Partners/>
@@ -23,6 +29,7 @@ function App() {
       <Clients/>
       <ContactUs/>
       <Footer/>
+     */}
     </>
   );
 }

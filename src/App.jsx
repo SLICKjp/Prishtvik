@@ -18,10 +18,10 @@ function App() {
       <HeroSection/>
       <Stats/>
       </div>
-      <AboutUs/>
-      
+      <Footer/>
      {
        /* <Stats/>
+       <AboutUs/>
       <AboutUs/>
       <Services/>
       <Partners/>

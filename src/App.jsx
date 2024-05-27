@@ -11,16 +11,23 @@ import Services from "./components/Services";
 import Stats from "./components/Stats";
 
 function App() {
-  return (
-    <>
-      <div className="max-w-[1240px] mx-auto font-poppins">
-      <Navbar/>
-      <HeroSection/>
-      <Stats/>
-      </div>
-      <Footer/>
-     {
-       /* <Stats/>
+	return (
+		<>
+			<div className="max-w-[1240px] mx-auto font-poppins">
+				<Navbar />
+				<HeroSection />
+				<Stats />
+			</div>
+			<AboutUs />
+			<div className="max-w-[1240px] mx-auto font-poppins">
+				<Services />
+				<Clients />
+				<Portfolio />
+			</div>
+			<Partners />
+			<ContactUs />
+			<Footer />
+			{/* <Stats/>
        <AboutUs/>
       <AboutUs/>
       <Services/>
@@ -30,8 +37,8 @@ function App() {
       <ContactUs/>
       <Footer/>
      */}
-    </>
-  );
+		</>
+	);
 }
 
 export default App;

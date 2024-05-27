@@ -1,0 +1,53 @@
+.contactUsSection{
+    height: 800px;
+    font-family: poppins;
+}
+
+.contactUs{
+    width: 70%;
+    height: 70%;
+    border: 1px solid rgb(176, 175, 175);
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px #888888;
+}
+.contactCard{
+    height: 100%;
+    width: 30%;
+    
+    background-color: #2F79FF;
+    color: white;
+    border-radius: 10px;
+}
+.contactForm{
+    height: 100%;
+    width: 70%;
+}
+
+.formDiv{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+label{
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+input{
+    border-bottom:1px solid #b9b8b8e1 ;
+}
+
+.submit-button{
+    width: 30%;
+    height: 40%;
+    color:white;
+    background-color: #2F79FF;
+    border-radius: 2%;
+}
+
+.form-element{
+    width: 40%;
+}

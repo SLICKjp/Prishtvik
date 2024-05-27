@@ -1,0 +1,11 @@
+.service img{
+    height:100px ;
+}
+
+.service{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}

@@ -41,11 +41,11 @@ input{
 }
 
 .submit-button{
-    width: 30%;
+    width: 23%;
     height: 40%;
     color:white;
     background-color: #2F79FF;
-    border-radius: 2%;
+    border-radius: 5px;
 }
 
 .form-element{

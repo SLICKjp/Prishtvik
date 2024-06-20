@@ -11,34 +11,24 @@ import Services from "./components/Services";
 import Stats from "./components/Stats";
 
 function App() {
-	return (
-		<>
-			<div className="max-w-[1240px] mx-auto font-poppins">
-				<Navbar />
-				<HeroSection />
-				<Stats />
-			</div>
-			<AboutUs />
-			<div className="max-w-[1240px] mx-auto font-poppins">
-				<Services />
-				<Clients />
-				<Portfolio />
-			</div>
-			<Partners />
-			<ContactUs />
-			<Footer />
-			{/* <Stats/>
-       <AboutUs/>
-      <AboutUs/>
-      <Services/>
-      <Partners/>
-      <Portfolio/>
-      <Clients/>
-      <ContactUs/>
-      <Footer/>
-     */}
-		</>
-	);
+  return (
+    <>
+      <div className="max-w-[1240px] mx-auto font-poppins">
+        <Navbar />
+        <HeroSection />
+        <Stats />
+      </div>
+      <AboutUs />
+      <div className="max-w-[1240px] mx-auto font-poppins">
+        <Services />
+        <Clients />
+        <Portfolio />
+      </div>
+      <Partners />
+      <ContactUs />
+      <Footer />
+    </>
+  );
 }
 
 export default App;

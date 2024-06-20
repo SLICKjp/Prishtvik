@@ -3,8 +3,8 @@ const AboutUs = () => {
 	return (
 		<div className="bg-[#4E6FF8]">
 			<div
-				className="flex flex-col md:flex-row lg:flex-row xl:flex-row max-w-[1240px] mx-auto  items-center"
-				style={{ minHeight: "400px" }}
+				className="flex flex-col md:flex-row lg:flex-row xl:flex-row max-w-[1240px] mx-auto items-center"
+				style={{ minHeight: "550px" }}
 			>
 				<div className="flex-shrink-0 ">
 					<img className="w-full md:w-9/12" src={Aboutimg} alt="" />
@@ -13,7 +13,7 @@ const AboutUs = () => {
 					<h3 className="font-bold text-3xl text-center md:text-start">
 						About Us
 					</h3>
-					<p className="my-4 text-justify mx-4 md:mx-0 leading-6">
+					<p className="my-4 text-justify mx-4 md:mx-0 leading-7 text-xl">
 						Prishtvik Services is founded with the motive to give services for
 						IT products of OEM like, Asus, Benq, Viewsonic, HP , Dell, Lenovo,
 						AOC etc. We have severed more than 5k Happy customer across the

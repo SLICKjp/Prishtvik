@@ -1,6 +1,8 @@
 import HeroImage from "../assets/HeroImage.png";
+import {useRef} from "react";
 
-const HeroSection = () => {
+const HeroSection = ({onContactClick}) => {
+	
 	return (
 		<div
 			className="mb-20 mt-20 font-poppins  flex flex-col items-center md:flex-row lg:flex-row xl:flex-row"
@@ -20,6 +22,7 @@ const HeroSection = () => {
 				<p className="text-xl"> Easy Solutions For All IT Problems</p>
 				<input
 					type="button"
+					onClick={onContactClick}
 					className="text-white bg-[#2674FF] hover:bg-blue-800 focus:ring-4 font-bold rounded-lg  text-sm px-5 py-2.5 me-2 mb-2 my-7"
 					value="Contact Us"
 				/>

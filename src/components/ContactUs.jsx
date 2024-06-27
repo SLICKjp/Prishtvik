@@ -5,7 +5,10 @@ import { MdEmail } from "react-icons/md";
 import { MdLocationOn } from "react-icons/md";
 import emailjs from 'emailjs-com';
 import { useState } from "react";
-const ContactUs = () => {
+import { forwardRef} from "react";
+
+
+const ContactUs = forwardRef((props, ref) => {
 	const [formData,setFormData] = useState({
 		firstName: "",
 		lastName : "",
@@ -51,7 +54,7 @@ const ContactUs = () => {
  });
 	}
 	return (
-		<div className="contactUsSection flex flex-col justify-center items-center ">
+		<div className="contactUsSection flex flex-col justify-center items-center" ref={ref}>
 			<p className="text-4xl font-semibold mb-3">Let's Get in Touch</p>
 			<p className="mb-20 text-[#929292]">We are here to help.Just message us and we’ll get back to you</p>
 			<div className="contactUs flex flex-row">
@@ -137,6 +140,6 @@ const ContactUs = () => {
 			</div>
 		</div>
 	);
-};
-
+});
+ContactUs.displayName='ContactUs';
 export default ContactUs;

@@ -1,5 +1,5 @@
 import HeroImage from "../assets/HeroImage.png";
-import {useRef} from "react";
+
 
 const HeroSection = ({onContactClick}) => {
 	
@@ -17,9 +17,9 @@ const HeroSection = ({onContactClick}) => {
 					<span className="text-[#2674FF]"> Trusted </span>
 					Partner for
 					<span className="text-[#2674FF]"> Reliable </span>
-					Computer Solutions
+					IT Solutions
 				</h2>
-				<p className="text-xl"> Easy Solutions For All IT Problems</p>
+				<p className="text-xl"> </p>
 				<input
 					type="button"
 					onClick={onContactClick}
@@ -33,5 +33,7 @@ const HeroSection = ({onContactClick}) => {
 		</div>
 	);
 };
+
+
 
 export default HeroSection;

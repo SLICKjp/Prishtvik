@@ -26,14 +26,15 @@ function App() {
   };
   return (
     <>
-    
         <div className="max-w-[1240px] mx-auto font-poppins">
           <Navbar onAboutClick={scrollToAboutUs} onContactClick={scrollToContactUs}/>
           <HeroSection onContactClick={scrollToContactUs} />
-          <Stats />
+
         </div>
         <AboutUs  ref={aboutUsRef} />
+
         <div className="max-w-[1240px] mx-auto font-poppins">
+        <Stats />
           <Services />
           <Clients />
           <Portfolio />

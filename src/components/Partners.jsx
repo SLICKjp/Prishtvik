@@ -11,7 +11,7 @@ import "../styles/Partners.css";
 const Partners = () => {
 	return (
 		<div className="partnerSection flex flex-col justify-center items-center">
-			<div className="text-2xl font-bold mb-10 ">Our Partners</div>
+			<div className="text-2xl font-bold mb-10 ">Authorized Partner</div>
 			<div className="logos flex">
 				<div className="logos-slider">
 					<img src={Asus} />

@@ -10,6 +10,7 @@ const Portfolio = () => {
 	const [currentIndex, setCurrentIndex] = useState(0);
 	const [opacity, setOpacity] = useState(1);
 	const images = [sophos, HPE, UPS];
+
 	const interval = 100000;
 
 	useEffect(() => {
@@ -56,7 +57,6 @@ const Portfolio = () => {
 					style={{ opacity: opacity }}
 					onTransitionEnd={() => setOpacity(1)}
 				/>
-
 				<button className="carousel-controls" onClick={goToNext}>
 					<MdKeyboardArrowRight size={30} />
 				</button>

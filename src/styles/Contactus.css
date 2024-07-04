@@ -1,10 +1,12 @@
 .contactUsSection{
     height: 800px;
     font-family: poppins;
+    margin-bottom:60px;
+   
 }
 
 .contactUs{
-    width: 70%;
+    width:70%;
     height: 70%;
     border: 1px solid rgb(176, 175, 175);
     border-radius: 10px;
@@ -12,8 +14,7 @@
 }
 .contactCard{
     height: 100%;
-    width: 30%;
-    
+    width: 30%;    
     background-color: #2F79FF;
     color: white;
     border-radius: 10px;

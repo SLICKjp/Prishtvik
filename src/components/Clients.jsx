@@ -27,7 +27,7 @@ import "../styles/Clients.css";
 const Clients = () => {
 	return (
 		<div className="clientSection flex flex-col justify-center items-center ">
-			<h2 className="text-2xl font-bold my-20">Our Amazing Customers</h2>
+			<h2 className="text-2xl font-bold my-20">Our Happy Customers</h2>
 			<div className="clientLogoSection flex flex-col justify-evenly items-center">
 				<div className="clientLogo flex flex-row justify-evenly items-center">
 					<img className="clients" src={Matrix} alt="" />

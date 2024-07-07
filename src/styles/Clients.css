@@ -1,6 +1,6 @@
 .clients{
-    height: 80px;
-    margin: 15px;
+    height: 80px !important;
+    margin: 15px !important;
 }
 .clientSection{
     height: 70vh;

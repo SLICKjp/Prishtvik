@@ -1,10 +1,16 @@
 import { useState, useEffect } from "react";
-import sophos from "../assets/sophos.jpg";
+import sophos from "../assets/firewall.jpg";
 import HPE from "../assets/hpe-server.jpg";
-import UPS from "../assets/upssolutionservices.png";
+import UPS from "../assets/apc.jpg";
 import HPESERVERRACK from "../assets/hpeserverrack.jpg";
 import Camera from "../assets/surv_cam.jpg";
 import Desktop from "../assets/DesktopSetup.jpg";
+import Epabx from "../assets/epabx_ipbx.png";
+import HomeTheatre from "../assets/hometheatre.jpg";
+import LaserJetPrinter from "../assets/laserJetPrinter.jpg";
+import Monitor from "../assets/monitor.jpg";
+import Scanjet from "../assets/scanjet.jpg";
+import VideoConferencing from "../assets/video_conferencing.jpg";
 import "../styles/Portfolio.css";
 import { MdKeyboardArrowLeft } from "react-icons/md";
 import { MdKeyboardArrowRight } from "react-icons/md";
@@ -13,16 +19,22 @@ const Portfolio = () => {
 	const [currentIndex, setCurrentIndex] = useState(0);
 	const [opacity, setOpacity] = useState(1);
 	const images = [
-		{ img: sophos, text: "Firewall Setup" },
-		{ img: HPE, text: "HPE server Setup" },
-		{ img: UPS, text: "uninterruptible power supply" },
-		{ img: HPESERVERRACK, text: "HPE server Setup " },
-		{ img: Camera, text: "Survellience Setup" },
-		{ img: Desktop, text: "Desktop Setup" },
+		{ img: sophos, text: "Firewall"},
+		{ img: HPE, text: "HPE server Setup"},
+		{ img: UPS, text: "uninterruptible power supply"},
+		{ img: HPESERVERRACK, text: "HPE server"},
+		{ img: Camera, text: "Survellience"},
+		{ img: Desktop, text: "Desktop Setup"},
+		{img: Epabx, text: "EPABX"},
+		{img: HomeTheatre, text: "Home Theatre"},
+		{img: LaserJetPrinter, text: "Laser Jet Printer"},
+		{img: Monitor, text: "Monitor"},
+		{img: Scanjet, text: "Scanjet Printer"},
+		{img: VideoConferencing, text: "Video Conferencing"}
 	];
-	const [caption, setCaption] = useState("");
+	//const [caption, setCaption] = useState("");
 	const interval = 100000;
-
+    
 	useEffect(() => {
 		const timer = setInterval(() => {
 			setOpacity(0);

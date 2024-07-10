@@ -1,9 +1,17 @@
 import Computer from "../assets/computer.png";
-import Robot from "../assets/robot.png";
-import Service from "../assets/service.png";
-import Tech from "../assets/tech.png";
-import Server from "../assets/server.png";
-import handshake from "../assets/handshake.png";
+import SurveyCamera from "../assets/survey_camera.png";
+import Globe from "../assets/icon_globe.png";
+import Projector from "../assets/icon_projector.png";
+import Support from "../assets/icon_tech_support.png"
+import Security from "../assets/icon_cyber_security.png"
+
+//import Robot from "../assets/robot.png";
+//import Service from "../assets/service.png";
+//import Tech from "../assets/tech.png";
+//import Server from "../assets/server.png";
+//import handshake from "../assets/handshake.png";
+//import icon_laptop from "../assets/icon_laptop.png";
+
 import "../styles/Services.css";
 
 const Services = () => {
@@ -28,37 +36,37 @@ const Services = () => {
             </h2>
           </div>
           <div className="service">
-            <img src={Robot} className="mb-4" />
+            <img src={Globe} className="mb-4" />
             <h2 className="text-xl text-center font-semibold">
-              Surveillance
+            Network Solutions
               <br />
             </h2>
           </div>
           <div className="service">
-            <img src={Service} className="mb-4" />
+            <img src={Support} className="mb-4" />
             <h2 className="text-xl text-center font-semibold">
-              Network Solutions
+               Video Conferencing Solution
             </h2>
           </div>
         </div>
         <div
           className="flex flex-row justify-evenly mt-10 mb-10"
-          style={{ width: "100%" }}
+          style={{ width: "100%"}}
         >
           <div className="service">
-            <img src={Tech} className="mb-4" />
+            <img src={Projector} className="mb-4" />
             <h2 className="text-xl text-center font-semibold">
               Customized Home Theater
             </h2>
           </div>
           <div className="service">
-            <img src={Server} className="mb-4" />
+            <img src={SurveyCamera} className="mb-4" />
             <h2 className="text-xl text-center font-semibold">
-              Video Conferencing Solution
+            Surveillance
             </h2>
           </div>
           <div className="service">
-            <img src={handshake} className="mb-4" />
+            <img src={Security} className="mb-4" />
             <h2 className="text-xl text-center font-semibold">
               Communication and Security
             </h2>

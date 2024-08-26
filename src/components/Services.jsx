@@ -13,67 +13,70 @@ import Security from "../assets/icon_cyber_security.png"
 //import icon_laptop from "../assets/icon_laptop.png";
 
 import "../styles/Services.css";
-
+import services_key from "../assets/services_key.png"
+import network from "../assets/Network_Service.png";
+import video from "../assets/Video_Service.png";
+import theatre from "../assets/HomeTheater_Service.png";
+import surveillance from "../assets/Sureveillance_Service.png";
+import security from "../assets/Security_Service.png";
+import Cards from "./Cards";
 const Services = () => {
   return (
-    <div
-      className="servicesSection flex flex-col justify-center items-center mb-20 mt-24"
-      style={{ width: "100%" }}
-    >
-      <h2 className="text-2xl font-bold mt-10 mb-10">How We Can Help </h2>
-      <div
-        className="servicesSubsection flex flex-col justify-center items-center"
-        style={{ width: "100%" }}
-      >
-        <div
-          className="flex flex-row justify-evenly mb-10 mt-10"
-          style={{ width: "100%" }}
-        >
-          <div className="service">
-            <img src={Computer} className="mb-4" />
-            <h2 className="text-xl text-center font-semibold">
-              Turnkey IT Solutions <br />
-            </h2>
-          </div>
-          <div className="service">
-            <img src={Globe} className="mb-4" />
-            <h2 className="text-xl text-center font-semibold">
-            Network Solutions
-              <br />
-            </h2>
-          </div>
-          <div className="service">
-            <img src={Support} className="mb-4" />
-            <h2 className="text-xl text-center font-semibold">
-               Video Conferencing Solution
-            </h2>
-          </div>
-        </div>
-        <div
-          className="flex flex-row justify-evenly mt-10 mb-10"
-          style={{ width: "100%"}}
-        >
-          <div className="service">
-            <img src={Projector} className="mb-4" />
-            <h2 className="text-xl text-center font-semibold">
-              Customized Home Theater
-            </h2>
-          </div>
-          <div className="service">
-            <img src={SurveyCamera} className="mb-4" />
-            <h2 className="text-xl text-center font-semibold">
-            Surveillance
-            </h2>
-          </div>
-          <div className="service">
-            <img src={Security} className="mb-4" />
-            <h2 className="text-xl text-center font-semibold">
-              Communication and Security
-            </h2>
-          </div>
-        </div>
-      </div>
+   <div className="service-container">
+    
+    <div className="service-heading">
+      <h2 className="service-heading">Our Services</h2>
     </div>
+
+
+    <div className="card-container">
+    <Cards
+    
+        imageSrc={services_key}
+        heading="Turnkey IT Solutions"
+        text=" Comprehensive & customizable technology services designed to meet the
+        unique needs of small and medium-sized businesses."
+    
+    />
+      <Cards
+    
+    imageSrc={network}
+    heading="Network Solutions"
+    text="Too provides a variety of internet-related services tailored primarily for small to medium-sized businesses."
+
+/>
+<Cards
+    
+    imageSrc={video}
+    heading="Video Conferencing "
+    text="Real-time communication & collaboration through video, audio, and often chat functions, connecting people regardless."
+
+/>
+<Cards
+    
+    imageSrc={theatre}
+    heading="Custom Home Theater"
+    text="To personalized cinematic experience right in the comfort of your home. We design and install state-of-the-art audio."
+
+/>
+<Cards
+    
+    imageSrc={surveillance}
+    heading="Surveillance Solution"
+    text="This service typically includes the installation and maintenance of CCTV cameras, motion detectors, alarm systems."
+
+/>
+<Cards
+    
+    imageSrc={security}
+    heading="Security & Communications"
+    text="To encompass a range of solutions designed to ensure the safety, privacy, and efficient info exchange within organizations."
+
+/>
+   
+</div>
+   </div>
+   
   );
 };
 

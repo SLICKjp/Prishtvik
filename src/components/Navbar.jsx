@@ -19,9 +19,9 @@ const Navbar = ({ onAboutClick,onContactClick}) => {
  
   return (
     <div>
-      <nav className="flex justify-between items-center h-24 max-w-[1240px] mx-auto text-white px-4 font-poppins">
+      <nav className="flex justify-between items-center h-24 max-w-[1240px] mx-auto text-white px-4 ">
         <img className="h-10" src={prishtvik_logo} alt="" />
-        <ul className="hidden md:flex">
+        <ul className="hidden md:flex ">
           <li className="p-4 text-[#000000] hover:text-[#2674FF] cursor-pointer"> <div ref={navigateHome} onClick={handleHomeClick}>Home</div></li>
         <li onClick={onAboutClick}  className="p-4 text-[#000000] hover:text-[#2674FF] cursor-pointer">About</li>
           <li  onClick={onContactClick} className="p-4 text-[#000000] hover:text-[#2674FF] cursor-pointer">Contact</li>

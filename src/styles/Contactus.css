@@ -2,22 +2,23 @@
     height: 800px;
     font-family: poppins;
     margin-bottom:60px;
-   
+    font-family: "Outfit", sans-serif;
 }
 
 .contactUs{
-    width:70%;
+    width:60%;
     height: 70%;
-    border: 1px solid rgb(176, 175, 175);
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 10px;
-    box-shadow: 5px 10px 10px #888888;
+   
 }
 .contactCard{
     height: 100%;
-    width: 30%;    
+    width:65%;    
     background-color: #2F79FF;
     color: white;
-    border-radius: 10px;
+    border-radius:20px;
+    
 }
 .contactForm{
     height: 100%;

@@ -1,11 +1,29 @@
-.service img{
-    height:100px ;
+.service-container
+{
+    min-height:700px;
+}
+.card-container
+{
+  display: grid;
+  margin-top: 25px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.service-heading
+{
+    text-align: center;
+    font-weight: 600;
+    font-size: 52px;
 }
 
-.service{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 30%;
+
+@media (max-width: 768px) {
+    .service-container {
+        height: auto; /* Adjust height for smaller screens */
+    }
+    .main-services-container {
+        width:100%;
+        text-align: justify;
+    }
+    
 }

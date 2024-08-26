@@ -74,37 +74,15 @@ const ContactUs = forwardRef((props, ref) => {
           className="contactCard flex flex-col justify-evenly items-center"
           style={{ height: "100%" }}
         >
-
-          
+        {/*<p className="font-bold text-3xl font-outfit">Perfect Solutions For Your Business</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+         */} 
           <div
             className="flex flex-col justify-evenly items-center text-center"
             style={{ height: "80%", marginTop: "-32%" }}
           >
-            <img src={Prishtvik_logo} alt="" />
-            <h2 className="font-semibold">
-              <BiSolidPhoneCall
-                className="mr-3"
-                size={20}
-                style={{ float: "left", marginTop: "2px" }}
-              />
-              +91-9601651845
-            </h2>
-            <h2 className="font-semibold">
-              <MdEmail
-                className="mr-3"
-                size={20}
-                style={{ float: "left", marginTop: "2px" }}
-              />{" "}
-              bhavesh.m@pisplindia.com
-            </h2>
-            <h2 className="font-semibold mb-10 ">
-              <MdLocationOn
-                className="mr-3"
-                size={20}
-                style={{ float: "left", marginTop: "2px" }}
-              />
-              FF-23,D-Tower,Avishkar complex <br /> OP road,Vadodara,390001
-            </h2>
+           
+          
           </div>
         </div>
 
@@ -131,6 +109,7 @@ const ContactUs = forwardRef((props, ref) => {
                     required
                     value={formData.firstName}
                     onChange={handleChange}
+                    
                   ></input>
                 </div>
                 <div className="form-element flex flex-col">
@@ -140,6 +119,7 @@ const ContactUs = forwardRef((props, ref) => {
                     name="lastName"
                     value={formData.lastName}
                     onChange={handleChange}
+                    
                   ></input>
                 </div>
               </div>

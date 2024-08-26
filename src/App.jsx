@@ -26,14 +26,20 @@ function App() {
 	};
 	return (
 		<>
-			<div className="max-w-[1240px] mx-auto font-poppins">
+			<div className="max-w-[1240px] mx-auto font-outfit">
 				<Navbar
 					onAboutClick={scrollToAboutUs}
 					onContactClick={scrollToContactUs}
 				/>
 				<HeroSection onContactClick={scrollToContactUs} />
+				<Services />
+				
 			</div>
-			<AboutUs ref={aboutUsRef} />
+			<AboutUs  ref={aboutUsRef}/>
+			<ContactUs ref={contactRef} />
+			<Partners />
+			
+			{/* <AboutUs ref={aboutUsRef}
 
 			<div className="max-w-[1240px] mx-auto font-poppins">
 				<Stats />
@@ -44,8 +50,11 @@ function App() {
 				<Portfolio />
 			</div>
 			<Partners />
-			<ContactUs ref={contactRef} />
 			<Footer />
+			<ContactUs ref={contactRef} />
+}
+			<Footer />
+			 */ }
 		</>
 	);
 }

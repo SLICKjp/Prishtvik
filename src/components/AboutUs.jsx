@@ -1,18 +1,24 @@
 import Aboutimg from "../assets/Aboutimg.png";
 import { forwardRef } from "react";
 import "../styles/Aboutus.css";
+import Circle from "../assets/circle.png";
 
 const AboutUs = forwardRef((props, ref) => (
   <div className="aboutus-main-container" ref={ref}>
-
     <div className="aboutus-content-container">
       <img className="aboutus-img" src={Aboutimg} alt="" />
 
       <div className="text-[#ffffff] my-9">
-        <h3 className="aboutus-heading">
-        We are Leading IT Service Solution.
-        </h3>
-        
+       {/* <div className="aboutus-title">
+        <img src={Circle} alt="" />
+          <p>
+            About Us 
+          </p>
+          <img src={Circle} alt="" />
+        </div>
+      */}
+        <h3 className="aboutus-heading">We are Leading IT Service Solution.</h3>
+
         <p className="aboutus-text">
           Prishtvik Services is founded with the motive to give services for IT
           products of OEM like, Asus, Benq, Viewsonic, HP , Dell, Lenovo, AOC

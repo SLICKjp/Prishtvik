@@ -3,7 +3,7 @@
   font-family: "Outfit", sans-serif;
   min-height: 700px;
   padding-top: 110px;
-  margin-top: 30px;
+ 
 }
 .aboutus-content-container {
   display: flex;
@@ -13,6 +13,12 @@
 }
 .aboutus-img {
   width: 452px;
+}
+.aboutus-title
+{
+  display: flex;
+  flex-direction: row;
+  justify-content:start;
 }
 .aboutus-heading
 {

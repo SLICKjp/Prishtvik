@@ -7,7 +7,9 @@
   display: grid;
   margin-top: 25px;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  gap: 40px;
+  justify-content: space-evenly;
+  
 }
 .service-heading
 {

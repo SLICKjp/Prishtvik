@@ -10,31 +10,31 @@ import Matrix from "../assets/matrixConsec.jpg";
 import "../styles/Partners.css";
 const Partners = () => {
 	return (
-		<div className="partnerSection flex flex-col justify-center items-center">
-			<div className="text-2xl font-bold mb-10 ">Authorized Partner</div>
+		<div className="partnerSection flex flex-col justify-center items-center mb-20">
+			<div className="text-2xl mb-10 ">Partnered with the best in Industry</div>
 			<div className="logos flex">
 				<div className="logos-slider">
-					<img src={Asus} />
-					<img src={Lenovo} />
-					<img src={HPE} />
-					<img src={HP} />
-					<img src={Microsoft} />
-					<img src={sophos} />
-					<img src={viewSonic} />
-					<img src={Apc} />
-					<img src={Matrix} />
+					<img className="partnerLogo" id="asus" src={Asus} />
+					<img className="partnerLogo" id="lenovo" src={Lenovo} />
+					<img className="partnerLogo" id="hpe" src={HPE} />
+					<img className="partnerLogo" id="hp" src={HP} />
+					<img className="partnerLogo" id="microsoft" src={Microsoft} />
+					<img className="partnerLogo" id="sophos" src={sophos} />
+					<img className="partnerLogo" id="viewSonic" src={viewSonic} />
+					<img className="partnerLogo" id="apc" src={Apc} />
+					<img className="partnerLogo" id="matrix" src={Matrix} />
 				</div>
 
 				<div className="logos-slider">
-					<img src={Asus} />
-					<img src={Lenovo} />
-					<img src={HPE} />
-					<img src={HP} />
-					<img src={Microsoft} />
-					<img src={sophos} />
-					<img src={viewSonic} />
-					<img src={Apc} />
-					<img src={Matrix} />
+					<img className="partnerLogo" id="asus" src={Asus} />
+					<img className="partnerLogo" id="lenovo" src={Lenovo} />
+					<img className="partnerLogo" id="hpe" src={HPE} />
+					<img className="partnerLogo" id="hp" src={HP} />
+					<img className="partnerLogo" id="microsoft" src={Microsoft} />
+					<img className="partnerLogo" id="sophos" src={sophos} />
+					<img className="partnerLogo" id="viewSonic" src={viewSonic} />
+					<img className="partnerLogo" id="apc" src={Apc} />
+					<img className="partnerLogo" id="matrix" src={Matrix} />
 				</div>
 			</div>
 		</div>

@@ -1,8 +1,12 @@
 .footer
 {
-    display: flex;
-    justify-content: space-evenly;
-    background-color: #051733;
-    color: white;
+    height: 300px;
+    background-color: #0b2858;
+    color: rgb(123, 123, 123);
+    font-size: large;
     font-family: "Outfit", sans-serif;
+}
+
+.footerSubsection{
+    text-align: center;
 }

@@ -3,5 +3,5 @@
     margin: 15px !important;
 }
 .clientSection{
-    height: 70vh;
+    min-height: 500px;
 }

@@ -2,13 +2,14 @@
     box-sizing: border-box;
     padding: 0;
     width: 100%;
-    height: 350px;
+    height: 250px;
     font-family: "Outfit", sans-serif;
+    border-top: 2px solid rgb(220, 219, 219);
+    border-bottom: 2px solid rgb(220, 219, 219);
 }
 
 .logos img{
     height: 50px;
-    /* width: 50px; */
     display: inline-block;
     margin: 20px;
     
@@ -56,5 +57,17 @@
 
 .logos-slider{ 
     flex-shrink: 0;
-    animation: 35s slide infinite linear;
+    animation: 150s slide infinite linear;
+}
+
+.partnerLogo{
+    opacity: 0.8;
+    filter: grayscale(100%);
+    transition: opacity 1s linear;
+}
+
+.partnerLogo:hover {
+    opacity: 1;
+    filter: grayscale(0%);
+    transition: opacity 1s linear;
 }

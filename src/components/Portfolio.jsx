@@ -16,79 +16,58 @@ import { MdKeyboardArrowLeft } from "react-icons/md";
 import { MdKeyboardArrowRight } from "react-icons/md";
 
 const Portfolio = () => {
-	const [currentIndex, setCurrentIndex] = useState(0);
-	const [opacity, setOpacity] = useState(1);
-	const images = [
-		{ img: sophos, text: "Firewall"},
-		{ img: HPE, text: "HPE server Setup"},
-		{ img: UPS, text: "uninterruptible power supply"},
-		{ img: HPESERVERRACK, text: "HPE server"},
-		{ img: Camera, text: "Survellience"},
-		{ img: Desktop, text: "Desktop Setup"},
-		{img: Epabx, text: "EPABX"},
-		{img: HomeTheatre, text: "Home Theatre"},
-		{img: LaserJetPrinter, text: "Laser Jet Printer"},
-		{img: Monitor, text: "Monitor"},
-		{img: Scanjet, text: "Scanjet Printer"},
-		{img: VideoConferencing, text: "Video Conferencing"}
-	];
-	//const [caption, setCaption] = useState("");
-	const interval = 100000;
-    
-	useEffect(() => {
-		const timer = setInterval(() => {
-			setOpacity(0);
-
-			setTimeout(() => {
-				setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-				setOpacity(1);
-			}, 500);
-		}, interval);
-
-		return () => clearInterval(timer);
-	}, [images.length, interval]);
-
-	const goToNext = () => {
-		setOpacity(0);
-
-		setTimeout(() => {
-			setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-			setOpacity(1);
-		}, 500);
-	};
-
-	const goToPrevious = () => {
-		setOpacity(0);
-		setTimeout(() => {
-			setCurrentIndex(
-				(prevIndex) => (prevIndex - 1 + images.length) % images.length
-			);
-			setOpacity(1);
-		}, 500);
-	};
-
 	return (
-		<div className="portfolio flex flex-col justify-evenly items-center mt-10">
-			<h2 className="text-2xl font-bold">Our Portfolio</h2>
-			<div className="carousel flex flex-row justify-evenly items-center">
-				<button className="carousel-controls" onClick={goToPrevious}>
-					<MdKeyboardArrowLeft size={30} />
-				</button>
-				<div className="flex flex-col justify-between items-center">
-					<img
-						className="carousel-img mb-5"
-						src={images[currentIndex].img}
-						alt={`Image ${currentIndex + 1}`}
-						style={{ opacity: opacity }}
-						onTransitionEnd={() => setOpacity(1)}
-					/>
-					<div className="text-xl font-semibold">
-						{images[currentIndex].text}
+		<div className="portfolio mt-10 mb-20">
+			<div className="sectionHeading mb-5 flex flex-row justify-center items-center">
+				<div className="sectionBullet mr-5"></div> <p>Conceptual Showcase</p>{" "}
+				<div className="sectionBullet ml-5"></div>
+			</div>
+			<div className="service-heading mb-5">
+				<span className="service-heading">
+					Where Creativity Meets Function: Explore Our Work
+				</span>
+			</div>
+			<div
+				className="portfolioImgSection flex flex-row justify-evenly items-center"
+				style={{ width: "100%" }}
+			>
+				<div
+					className="portfolioImgContainer flex flex-col justify-evenly items-center"
+					style={{ height: "80%", width: "40%" }}
+				>
+					<div className="portfolioImg" style={{ height: "60%" }}>
+						<img src={UPS} />
+						<p className="portfolioItem">UPS Server Setup</p>
+					</div>
+					<div className="portfolioImg" style={{ height: "40%" }}>
+						<img src={VideoConferencing} />
+						<p className="portfolioItem">Video Conferencing</p>
 					</div>
 				</div>
-				<button className="carousel-controls" onClick={goToNext}>
-					<MdKeyboardArrowRight size={30} />
-				</button>
+				<div
+					className="portfolioImgContainer flex flex-col justify-evenly items-center"
+					style={{ height: "80%", width: "25%" }}
+				>
+					<div className="portfolioImg" style={{ height: "70%" }}>
+						<img src={Desktop} />
+						<p className="portfolioItem">Custom Desktop Setup</p>
+					</div>
+					<div className="portfolioImg" style={{ height: "30%" }}>
+						<img src={sophos} />
+						<p className="portfolioItem" style={{ height: "35%" }}>
+							Firewall Setup
+						</p>
+					</div>
+				</div>
+				<div
+					className="portfolioImgContainer flex flex-col justify-evenly items-center"
+					style={{ height: "80%", width: "35%" }}
+				>
+					<div className="portfolioImg" style={{ height: "100%" }}>
+						<img src={Camera} />
+						<p className="portfolioItem">Surveillance System Setup</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	);

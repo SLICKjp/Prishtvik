@@ -27,19 +27,25 @@ function App() {
 	return (
 		<>
 			<div className="max-w-[1240px] mx-auto font-outfit">
-				<Navbar
-					onAboutClick={scrollToAboutUs}
-					onContactClick={scrollToContactUs}
-				/>
-				<HeroSection onContactClick={scrollToContactUs} />
+				<div className="heroSection">
+					<Navbar
+						onAboutClick={scrollToAboutUs}
+						onContactClick={scrollToContactUs}
+					/>
+					<HeroSection onContactClick={scrollToContactUs} />
+				</div>
+				<Partners />
 				<Services />
-				
+				<Portfolio />
 			</div>
-			<AboutUs  ref={aboutUsRef}/>
-			
-			
+			<AboutUs ref={aboutUsRef} />
+
 			<ContactUs ref={contactRef} />
-			
+
+			<div className="max-w-[1240px] mx-auto font-outfit">
+				<Clients />
+			</div>
+
 			{/* <AboutUs ref={aboutUsRef}
 
 			<div className="max-w-[1240px] mx-auto font-poppins">
@@ -53,9 +59,8 @@ function App() {
 			<Partners />
 			<Footer />
 			<ContactUs ref={contactRef} />
-}
+} */}
 			<Footer />
-			 */ }
 		</>
 	);
 }

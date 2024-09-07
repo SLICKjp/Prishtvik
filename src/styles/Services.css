@@ -1,6 +1,10 @@
 .service-container
 {
-    min-height:700px;
+    min-height:800px;
+    background-image: url("../assets/Hero_BG2.png");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
 }
 .card-container
 {
@@ -14,8 +18,24 @@
 .service-heading
 {
     text-align: center;
-    font-weight: 600;
-    font-size: 52px;
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.sectionHeading{
+    margin: auto;
+    font-size: 25px;
+    color: #2d80fe;
+    font-weight: 200px;
+    text-align: center;
+}
+
+.sectionBullet{
+    width: 5px;
+        height: 5px;
+        background-color: #2d80fe;
+        border-radius: 50%;
+        box-shadow: 0 0 5px 3px #6ba6ff;
 }
 
 

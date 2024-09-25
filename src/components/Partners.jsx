@@ -15,7 +15,7 @@ const Partners = () => {
 			<div className="logos flex">
 				<div className="logos-slider">
 					<img className="partnerLogo" id="asus" src={Asus} />
-					<img className="partnerLogo" id="lenovo" src={Lenovo} />
+					{/*<img className="partnerLogo" id="lenovo" src={Lenovo} /> */}
 					<img className="partnerLogo" id="hpe" src={HPE} />
 					<img className="partnerLogo" id="hp" src={HP} />
 					<img className="partnerLogo" id="microsoft" src={Microsoft} />
@@ -27,7 +27,7 @@ const Partners = () => {
 
 				<div className="logos-slider">
 					<img className="partnerLogo" id="asus" src={Asus} />
-					<img className="partnerLogo" id="lenovo" src={Lenovo} />
+				  {/*<img className="partnerLogo" id="lenovo" src={Lenovo} /> */}
 					<img className="partnerLogo" id="hpe" src={HPE} />
 					<img className="partnerLogo" id="hp" src={HP} />
 					<img className="partnerLogo" id="microsoft" src={Microsoft} />

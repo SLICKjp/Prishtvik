@@ -19,7 +19,7 @@ const Portfolio = () => {
 	return (
 		<div className="portfolio mt-10 mb-20">
 			<div className="sectionHeading mb-5 flex flex-row justify-center items-center">
-				<div className="sectionBullet mr-5"></div> <p>Conceptual Showcase</p>{" "}
+				<div className="sectionBullet mr-5"></div> <p>Product Portfolio</p>{" "}
 				<div className="sectionBullet ml-5"></div>
 			</div>
 			<div className="service-heading mb-5">

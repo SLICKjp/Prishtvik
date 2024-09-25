@@ -1,81 +1,170 @@
-.contactUsSection{
-    height: 800px;
-    font-family: poppins;
-    margin-bottom:60px;
-    font-family: "Outfit", sans-serif;
-    
+.contactUsSection {
+  height: 800px;
+  margin-bottom: 60px;
+  font-family: "Outfit", sans-serif;
 }
 
-.contactUsContainer{
+.contactUsContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.contactUs {
+  width: 60%;
+  height: 550px;
+  border: 1px solid rgb(255, 255, 255);
+
+  z-index: 10;
+  position: absolute;
+  top: 250px;
+  box-shadow: 0px 5px 3px #f0f0f0;
+}
+.contactCard {
+  height: 100%;
+  width: 65%;
+  background-color: #2f79ff;
+  color: white;
+}
+.contactForm {
+  height: 100%;
+  width: 70%;
+  background-color: white;
+}
+
+.formDiv {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+label {
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.form-element input,
+#messageInput {
+  border: 1px solid #b9b8b8e1;
+  border-radius: 2px;
+  height: 35px;
+
+  padding: 5px !important;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#messageInput {
+  height: 70px !important;
+}
+
+.submit-button {
+  width: 30%;
+  height: 40%;
+  color: white;
+  background-color: #2f79ff;
+  border-radius: 5px;
+}
+
+.form-element {
+  width: 48%;
+}
+
+.contactBg {
+  background-image: url("/src/assets/Contact_BG.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  min-height: 450px;
+  z-index: 5;
+  color: white;
+}
+
+.contactBullets {
+  width: 5px;
+  height: 5px;
+  background-color: #fff;
+  border: 1px solid #e4e3e3;
+  border-radius: 50%;
+  box-shadow: 0 0 5px 3px #fff;
+}
+
+/* Base Styles (unchanged) */
+.contactUsSection {
+    height: 800px;
+    font-family: "Outfit", sans-serif;
+    margin-bottom: 60px;
+}
+
+.contactUsContainer {
     position: relative;
     width: 100%;
     height: 100%;
 }
-.contactUs{
-    width:60%;
+
+.contactUs {
+    width: 60%;
     height: 550px;
-    border: 1px solid rgb(255, 255, 255);
+    border: 0px solid rgb(255, 255, 255);
+    z-index: 10;
+    position: absolute;
+    top: 250px;
     
-   z-index: 10;
-   position: absolute;
-   top: 250px;
-   box-shadow: 0px 5px 3px #f0f0f0;
 }
-.contactCard{
+
+.contactCard {
     height: 100%;
-    width:65%;    
+    width: 65%;
     background-color: #2F79FF;
     color: white;
-    
-    
 }
-.contactForm{
+
+.contactForm {
     height: 100%;
     width: 70%;
     background-color: white;
 }
 
-.formDiv{
+.formDiv {
     height: 20%;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-
 }
-label{
+
+label {
     margin-bottom: 5px;
     font-weight: 500;
 }
 
-.form-element input, #messageInput{
-    border:1px solid #b9b8b8e1 ;
+.form-element input, #messageInput {
+    border: 1px solid #b9b8b8e1;
     border-radius: 2px;
     height: 35px;
-    
     padding: 5px !important;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
-#messageInput{
+#messageInput {
     height: 70px !important;
 }
 
-.submit-button{
+.submit-button {
     width: 30%;
     height: 40%;
-    color:white;
+    color: white;
     background-color: #2F79FF;
     border-radius: 5px;
 }
 
-.form-element{
+.form-element {
     width: 48%;
 }
 
-.contactBg{
+.contactBg {
     background-image: url("/src/assets/Contact_BG.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -86,11 +175,39 @@ label{
     color: white;
 }
 
-.contactBullets{
+.contactBullets {
     width: 5px;
-        height: 5px;
-        background-color: #fff;
-        border: 1px solid #e4e3e3;
-        border-radius: 50%;
-        box-shadow: 0 0 5px 3px #fff;
+    height: 5px;
+    background-color: #fff;
+    border: 1px solid #e4e3e3;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 3px #fff;
 }
+
+/* Media Queries for Mobile Devices */
+@media  (max-width: 670px) {
+    .contactUsSection
+    {
+       
+    }
+    .subtext_2
+    {
+      text-align: justify;
+      margin:5px;
+    }
+    .contactUsContainer .contactUs
+    {
+        width: 100%;
+       
+    }
+}
+
+
+
+
+
+
+
+
+
+

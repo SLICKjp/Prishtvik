@@ -13,6 +13,9 @@ import { useRef } from "react";
 function App() {
 	const aboutUsRef = useRef(null);
 	const contactRef = useRef(null);
+    const serviceRef = useRef(null);
+
+
 
 	const scrollToAboutUs = () => {
 		if (aboutUsRef.current) {
@@ -22,6 +25,11 @@ function App() {
 	const scrollToContactUs = () => {
 		if (contactRef.current) {
 			contactRef.current.scrollIntoView({ behavior: "smooth" });
+		}
+	};
+	const scrollToServices = () => {
+		if (serviceRef.current) {
+			serviceRef.current.scrollIntoView({ behavior: "smooth" });
 		}
 	};
 	return (
@@ -35,7 +43,7 @@ function App() {
 					<HeroSection onContactClick={scrollToContactUs} />
 				</div>
 				<Partners />
-				<Services />
+				<Services ref={serviceRef}/>
 				<Portfolio />
 			</div>
 			<AboutUs ref={aboutUsRef} />
@@ -43,13 +51,15 @@ function App() {
 			<ContactUs ref={contactRef} />
 
 			<div className="max-w-[1240px] mx-auto font-outfit">
-				<Clients />
+			
 			</div>
+			
 
 			{/* <AboutUs ref={aboutUsRef}
-
+<Stats />
+	<Clients />
 			<div className="max-w-[1240px] mx-auto font-poppins">
-				<Stats />
+				
 				<Services />
 			</div>
 			<Clients />
@@ -60,7 +70,7 @@ function App() {
 			<Footer />
 			<ContactUs ref={contactRef} />
 } */}
-			<Footer />
+			<Footer onAboutClick={scrollToAboutUs} onContactClick={scrollToContactUs} onServiceClick={scrollToServices} />
 		</>
 	);
 }

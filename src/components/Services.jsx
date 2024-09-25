@@ -20,9 +20,10 @@ import theatre from "../assets/HomeTheater_Service.png";
 import surveillance from "../assets/Sureveillance_Service.png";
 import security from "../assets/Security_Service.png";
 import Cards from "./Cards";
-const Services = () => {
+import { forwardRef } from "react";
+const Services = forwardRef((props,ref) => {
 	return (
-		<div className="service-container mb-20">
+		<div className="service-container mb-20" ref={ref}>
 			<div className="sectionHeading mb-5 flex flex-row justify-center items-center">
 				<div className="sectionBullet mr-5"></div> <p>Our Services</p>{" "}
 				<div className="sectionBullet ml-5"></div>
@@ -68,6 +69,6 @@ const Services = () => {
 			</div>
 		</div>
 	);
-};
+});
 
 export default Services;

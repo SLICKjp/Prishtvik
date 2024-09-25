@@ -1,8 +1,9 @@
 import "../styles/Footer.css";
-import prishtvik_logo from "../assets/prishtvik_logo_hero.png";
+import prishtvik_logo from "../assets/prishtvik_logo.png";
 import { IoCallSharp } from "react-icons/io5";
 import { SiMinutemailer } from "react-icons/si";
-const Footer = () => {
+import { forwardRef } from "react";
+const Footer = ({onAboutClick,onContactClick,onServiceClick}) => {
 	return (
 		<footer className="footer flex flex-row justify-center items-center">
 			<div
@@ -31,30 +32,29 @@ const Footer = () => {
 						style={{ width: "45%" }}
 					>
 						<IoCallSharp className="mr-3" size={"25px"} />
-						<h3>+91 8866-565 303</h3>
+						<h3>+91 9601651845</h3>
 					</div>
 					<div
-						className="flex flex-row justify-start
-             items-center"
-						style={{ width: "45%" }}
+						className="flex flex-row justify-start items-center"
+						style={{ }}
 					>
 						<SiMinutemailer className="mr-3" size={"25px"} />
-						<h3>info@prishtwik.com</h3>
+						<h3>bhavesh.m@pisplindia.com</h3>
 					</div>
 				</div>
 			</div>
 
 			<div className="footerSubsection" style={{ width: "20%", height: "80%" }}>
-				<h3 className="my-3 text-2xl" style={{ color: "white" }}>
+				<h3 className="my-3 text-2xl" style={{ color: "white" }} >
 					Quick Links
 				</h3>
 				<div
-					className="flex flex-col items-center justify-evenly"
-					style={{ height: "60%" }}
+					className="flex flex-col items-center justify-evenly "
+					style={{ height: "45%" }}
 				>
-					<p>About Us</p>
-					<p>Services</p>
-					<p>Contact</p>
+					<p className=" main-links" onClick={onAboutClick}>About Us</p>
+					
+					<p className=" main-links" onClick={onContactClick}>Contact</p>
 				</div>
 			</div>
 			<div
@@ -69,30 +69,30 @@ const Footer = () => {
 						color: "white",
 						textAlign: "left",
 						width: "100%",
-						marginLeft: "15%",
+						marginLeft:"20%",
 					}}
 				>
 					Services
 				</h3>
 				<div
-					className="flex flex-row justify-evenly items-center"
+					className="flex flex-row justify-evenly items-center text-center "
 					style={{ height: "60%", width: "100%" }}
 				>
 					<div
-						className="flex flex-col justify-evenly items-center"
-						style={{ height: "100%", width: "40%" }}
+						className="flex flex-col justify-evenly items-center service-links-1"
+						style={{ height: "100%", width: "40%"}}
 					>
-						<p>Turnkey IT Solutions</p>
-						<p>Network Solutions</p>
-						<p>Video Conferencing</p>
+						<p onClick={onServiceClick}>Turnkey IT Solutions</p>
+						<p onClick={onServiceClick}>Network Solutions</p>
+						<p onClick={onServiceClick}>Video Conferencing</p>
 					</div>
 					<div
-						className="flex flex-col justify-evenly items-center"
+						className="flex flex-col justify-evenly items-center service-links-2"
 						style={{ height: "100%", width: "40%" }}
 					>
-						<p>Custom Home Theatre</p>
-						<p>Survelliance Solutions</p>
-						<p>Security Solutions</p>
+						<p onClick={onServiceClick}>Custom Home Theatre</p>
+						<p onClick={onServiceClick}>Survelliance Solutions</p>
+						<p onClick={onServiceClick}>Security Solutions</p>
 					</div>
 				</div>
 			</div>

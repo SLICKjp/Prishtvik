@@ -1,7 +1,24 @@
 .clients{
-  /*  height: 60px !important; */
-    margin: 15px !important;
+   /* height: 60px;
+    margin: 25px !important;
+    */
 }
 .clientSection{
     min-height: 500px;
+}
+.matrix-logo
+{
+  height: 60px;
+}
+.wdwizrd-mobility
+{
+  width: 200px;
+}
+.wdwizrd-foundation
+{
+  width: 180px;
+}
+.wdwizrd-medicare
+{
+   height: 350px;
 }

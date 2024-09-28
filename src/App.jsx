@@ -51,7 +51,8 @@ function App() {
 			<ContactUs ref={contactRef} />
 
 			<div className="max-w-[1240px] mx-auto font-outfit">
-			
+			<Stats />
+			<Clients />
 			</div>
 			
 

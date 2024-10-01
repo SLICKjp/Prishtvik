@@ -9,7 +9,7 @@ const Stats = () => {
         </h2>
 
         <p className="px-3 text-center">
-          We have served customer across the central Gujarat within radius of
+           Customers served across the central Gujarat within radius of
           150Km onsite support
         </p>
       </div>
@@ -29,7 +29,7 @@ const Stats = () => {
         <h2 className="text-[#2674FF] font-bold text-2xl  text-center">20 +</h2>
 
         <p className="px-3 text-center">
-          Since 2019, Reaching 300 end customers and working with more than 20
+          Since 2019, Reached 300 end customers and worked with more than 20
           well-known corporate houses.
         </p>
       </div>
@@ -37,7 +37,7 @@ const Stats = () => {
         <h2 className="text-[#2674FF] font-bold text-2xl  text-center">10 +</h2>
 
         <p className="text-center">
-          Collaborating with world class business partners.
+         Brand authorized sales partner.
         </p>
       </div>
     </div>

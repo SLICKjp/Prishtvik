@@ -124,23 +124,60 @@ const Clients = () => {
         width="158"
         height="48"
       />
-      <img
-        className="col-span-2 col-start-2 max-h-14 w-full object-contain sm:col-start-auto lg:col-span-1"
-        src={ATT}
+    
+        <img
+        className="col-span-2 col-start-2 max-h-[80px] w-full object-contain sm:col-start-auto lg:col-span-1"
+        src={Margen}
         alt="Statamic"
         width="158"
-        height="48"
+        height=""
       />
-      <img
+        <img
         className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
-        src={snail}
+        src={BOB}
         alt="Statamic"
         width="158"
-        height="48"
+        height=""
       />
         <img
         className="col-span-2 col-start-2 max-h-14 w-full object-contain sm:col-start-auto lg:col-span-1"
         src={Deepak}
+        alt="Statamic"
+        width="158"
+        height=""
+      />
+      <img
+        className="col-span-2 col-start-2 max-h-[80px] w-full object-contain sm:col-start-auto lg:col-span-1"
+        src={MSU}
+        alt="Statamic"
+        width="158"
+        height=""
+      />
+       
+        <img
+        className="col-span-2 col-start-2 max-h-[80px] w-full object-contain sm:col-start-auto lg:col-span-1"
+        src={sandeep}
+        alt="Statamic"
+        width="158"
+        height=""
+      />
+        <img
+        className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
+        src={Parul}
+        alt="Statamic"
+        width="158"
+        height=""
+      />
+        <img
+        className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
+        src={Podar}
+        alt="Statamic"
+        width="158"
+        height=""
+      />
+        <img
+        className="col-span-2 col-start-2 max-h-[80px] w-full object-contain sm:col-start-auto lg:col-span-1"
+        src={Manavkendra}
         alt="Statamic"
         width="158"
         height=""
@@ -173,26 +210,28 @@ const Clients = () => {
         width="158"
         height=""
       />
-         <img
-        className="col-span-2 col-start-2 max-h-[80px] w-full object-contain sm:col-start-auto lg:col-span-1"
-        src={Manavkendra}
+      <img
+        className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
+        src={snail}
+        alt="Statamic"
+        width="158"
+        height="48"
+      />
+      
+       
+        <img
+        className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
+        src={SeventhSky}
         alt="Statamic"
         width="158"
         height=""
       />
        <img
-        className="col-span-2 col-start-2 max-h-[80px] w-full object-contain sm:col-start-auto lg:col-span-1"
-        src={MSU}
+        className="col-span-2 col-start-2 max-h-14 w-full object-contain sm:col-start-auto lg:col-span-1"
+        src={ATT}
         alt="Statamic"
         width="158"
-        height=""
-      />
-       <img
-        className="col-span-2 col-start-2 max-h-[80px] w-full object-contain sm:col-start-auto lg:col-span-1"
-        src={Margen}
-        alt="Statamic"
-        width="158"
-        height=""
+        height="48"
       />
        <img
         className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
@@ -203,7 +242,7 @@ const Clients = () => {
       />
        <img
         className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
-        src={Parul}
+        src={sgicare}
         alt="Statamic"
         width="158"
         height=""
@@ -215,41 +254,7 @@ const Clients = () => {
         width="158"
         height=""
       />
-        <img
-        className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
-        src={SeventhSky}
-        alt="Statamic"
-        width="158"
-        height=""
-      />
-        <img
-        className="col-span-2 col-start-2 max-h-[80px] w-full object-contain sm:col-start-auto lg:col-span-1"
-        src={sandeep}
-        alt="Statamic"
-        width="158"
-        height=""
-      />
-        <img
-        className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
-        src={sgicare}
-        alt="Statamic"
-        width="158"
-        height=""
-      />
-        <img
-        className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
-        src={Podar}
-        alt="Statamic"
-        width="158"
-        height=""
-      />
-        <img
-        className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
-        src={BOB}
-        alt="Statamic"
-        width="158"
-        height=""
-      />
+      
       
     </div>
   </div>

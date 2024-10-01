@@ -50,11 +50,13 @@ const Footer = ({onAboutClick,onContactClick,onServiceClick}) => {
 				</h3>
 				<div
 					className="flex flex-col items-center justify-evenly "
-					style={{ height: "45%" }}
+					style={{ height: "60%" }}
 				>
 					<p className=" main-links" onClick={onAboutClick}>About Us</p>
 					
 					<p className=" main-links" onClick={onContactClick}>Contact</p>
+
+					<p className=" main-links" onClick={onContactClick}>Career</p>
 				</div>
 			</div>
 			<div

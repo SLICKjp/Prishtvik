@@ -1,12 +1,8 @@
-/* eslint-disable no-mixed-spaces-and-tabs */
 import "../styles/Contactus.css";
-//import { BiSolidPhoneCall } from "react-icons/bi";
-//import { MdEmail } from "react-icons/md";
-//import { MdLocationOn } from "react-icons/md";
 import emailjs from "emailjs-com";
 import { useState } from "react";
 import { forwardRef } from "react";
-//import Prishtvik_logo from "../assets/prishtvik_logo.png";
+
 
 const ContactUs = forwardRef((props, ref) => {
   const [formData, setFormData] = useState({

@@ -1,17 +1,3 @@
-import Computer from "../assets/computer.png";
-import SurveyCamera from "../assets/survey_camera.png";
-import Globe from "../assets/icon_globe.png";
-import Projector from "../assets/icon_projector.png";
-import Support from "../assets/icon_tech_support.png";
-import Security from "../assets/icon_cyber_security.png";
-
-//import Robot from "../assets/robot.png";
-//import Service from "../assets/service.png";
-//import Tech from "../assets/tech.png";
-//import Server from "../assets/server.png";
-//import handshake from "../assets/handshake.png";
-//import icon_laptop from "../assets/icon_laptop.png";
-
 import "../styles/Services.css";
 import services_key from "../assets/services_key.png";
 import network from "../assets/Network_Service.png";

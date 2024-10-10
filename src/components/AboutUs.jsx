@@ -16,14 +16,11 @@ const AboutUs = forwardRef((props, ref) => (
         <h3 className="aboutus-heading">We are Leading IT Service Solution.</h3>
 
         <p className="aboutus-text">
-          Prishtvik Services is founded with the motive to give services for IT
-          products of OEM like, Asus, Benq, Viewsonic, HP , Dell, Lenovo, AOC
-          etc. We have severed more than 5k Happy customer across the central
-          Gujarat within radius of 150Km onsite support. Attended more than 30k
-          service calls and developed trust and value of various brands. In 2019
-          we have introduced our firm in to sales for products like Laptop,
-          Desktop, AIO, UPS / battery solutions, Network solutions,Integration
-          solutions,Software solutions.
+        Founded in 2015 as A1 Services, we became an authorized service partner for F1 Info Solutions Private Limited, dedicated to delivering top-notch IT support and solutions for leading OEM products, including Asus, BenQ, ViewSonic, HP, Dell, Lenovo, AOC, and more. Over the years, we have proudly served over 5,000 satisfied customers across Central Gujarat, providing reliable onsite support within a 150 km radius. With more than 30,000 service calls successfully attended too, we have built a strong reputation for trust and quality across various brands.
+
+In 2024, we are excited to reintroduce ourselves as Prishtvik Info Solutions Pvt Ltd, expanding our offerings as a sales partner for corporate houses. We provide comprehensive solutions for active and passive networks, servers, online/offline UPS systems, surveillance, and IT infrastructure products.
+
+Our commitment to excellence drives us to continually innovate and enhance our services, ensuring that our customers receive the best possible support and tailored solutions to meet their needs. Join us in our mission to empower your technology experience!
         </p>
       </div>
     </div>

@@ -1,8 +1,8 @@
 .aboutus-main-container {
   background-color: #2d80fe;
   font-family: "Outfit", sans-serif;
-  min-height: 700px;
-  padding-top: 110px;
+  min-height: 650px;
+  padding-top: 100px;
  
 }
 .aboutus-content-container {
@@ -10,10 +10,12 @@
   flex-direction: row;
   max-width: 1240px;
   margin: auto;
+
 }
 .aboutus-img {
-  width: 452px;
-  
+  width:452px;
+  height: 400px;
+  margin-top:60px;
 }
 .aboutus-title
 {

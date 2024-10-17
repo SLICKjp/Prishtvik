@@ -29,9 +29,9 @@ const ContactUs = forwardRef((props, ref) => {
         {
           from_name: formData.firstName,
           from_lastname: formData.lastName,
-          to_name: "Jathin",
+          to_name: "Bhavesh",
           from_email: formData.email,
-          to_email: "jathinprakash33@gmail.com",
+          to_email: "bhavesh.m@pisplindia.com",
           message: formData.message,
           phoneNo: formData.phoneNo,
         },
